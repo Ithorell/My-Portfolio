@@ -15,15 +15,20 @@
     <header>
         <h1>I am Isaac Thorell</h1>
         <nav>
-            <button class="button" href="#">About me</button>
-            <button class="button" href="#">Projects</button>
-            <button class="button" href="#">Contact Me</button>
+            <ul>
+                <li><a href="">About Me</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Contact Me</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
         </nav>
+
     </header>
 
 
     <main>
-        <section class="About-me">
+        <section class="aboutme">
             <h2>Biography</h2>
             <ul>
                 <li>Graduated highschool 2017</li>
@@ -39,16 +44,16 @@
             </ul>
 
         </section>
-        <section>
+        <section class="projects">
             <h2>Projects</h2>
 
 
             <footer>will be continuously updated</footer>
 
         </section>
-        <section>
+        <section class="contact-form">
             <h2>Contact me</h2>
-            <form action="Isaac.thorell@outlook.com">
+            <form action="action_page.php">
                 <label for="fname">First Name</label>
                 <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
@@ -57,9 +62,12 @@
 
                 <label id="subject" for="Subject">Comments</label>
                 <textarea id="subject" name="subject" placeholder=""></textarea>
+
+                <input type="submit" value="Submit">
             </form>
 
         </section>
+
 
 
     </main>

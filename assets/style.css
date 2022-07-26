@@ -1,5 +1,15 @@
 #subject {
     height: 200px;
     display: flex;
-    ;
+    
 }
+
+.button{
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: auto;
+    border: 5px solid purple;
+}
+/* TODO:THEN that application's image should be larger in size than the others (flexbox layout) */
+/* TODO:THEN I am taken to that deployed application (link/ a Href) */
+/* TODO:THEN I am presented with a responsive layout that adapts to my viewport (Responsive design),  */
