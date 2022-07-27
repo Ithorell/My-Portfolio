@@ -6,6 +6,9 @@ body{
 header {
     flex-direction: row;
     background-color: blue;
+    position: fixed;
+    z-index: 10;
+
 }
 
 h1 {
@@ -24,6 +27,11 @@ header nav {
     display: inline;
     float: right;
     border: 3px solid indianred;
+}
+
+nav :hover{
+    background-color: lightblue;
+    ;
 }
 
 #About-me {
