@@ -8,14 +8,22 @@ header {
     background-color: blue;
 }
 
-.header h1 {
-    color: red;
+h1 {
+    display: flex;
+    font-family: serif, times new roman, times;
+    font-size: 36px;
+    display: block;
+    text-align: center;
+    border: 3px solid black;
+    margin: 5px auto;
+    padding: 5px;
+    background-image: linear-gradient(1deg, purple, transparent);
 }
 
-Header nav {
+header nav {
     display: inline;
-    flex-direction: row;
-    flex-wrap: wrap;
+    float: right;
+    border: 3px solid indianred;
 }
 
 #About-me {
