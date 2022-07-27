@@ -8,8 +8,12 @@ header {
     background-color: blue;
 }
 
-.header h1 {
+h1 {
     color: red;
+}
+img {
+    border: 5px solid cadetblue;
+    
 }
 
 Header nav {
