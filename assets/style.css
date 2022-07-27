@@ -6,20 +6,36 @@ body{
 header {
     flex-direction: row;
     background-color: blue;
+    position: fixed;
+    z-index: 10;
+
 }
 
 h1 {
-    color: red;
+    display: flex;
+    font-family: serif, times new roman, times;
+    font-size: 36px;
+    display: block;
+    text-align: center;
+    border: 3px solid black;
+    margin: 5px auto;
+    padding: 5px;
+    background-image: linear-gradient(1deg, purple, transparent);
 }
 img {
     border: 5px solid cadetblue;
     
 }
 
-Header nav {
+header nav {
     display: inline;
-    flex-direction: row;
-    flex-wrap: wrap;
+    float: right;
+    border: 3px solid indianred;
+}
+
+nav :hover{
+    background-color: lightblue;
+    ;
 }
 
 #About-me {
