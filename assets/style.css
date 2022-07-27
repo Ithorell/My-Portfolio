@@ -4,11 +4,12 @@ body{
 }
 
 header {
-    display: flex;
+    flex-direction: row;
+    background-color: blue;
 }
 
-header h1 {
-    flex-direction: left;
+.header h1 {
+    color: red;
 }
 
 Header nav {
