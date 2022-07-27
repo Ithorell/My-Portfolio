@@ -1,5 +1,42 @@
-#subject {
-    height: 200px;
+body{
+    display: flex;
+    font-family:'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+}
+
+header h1 {
+    flex-direction: left;
+}
+
+Header nav {
+    display: inline;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#About-me {
+    display: flex;
+}
+
+#About-me h2 {
+    display: flex;
+}
+
+#About-me ul {
+    display: flex;
+}
+
+#About-me h3 {
+    display: flex;
+}
+
+#projects {
+    display: flex;}
+
+#projects h2 {
     display: flex;
     
 }

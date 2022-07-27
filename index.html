@@ -14,21 +14,18 @@
     <!--TODO:THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them-->
     <header>
         <h1>I am Isaac Thorell</h1>
+        <img src="" alt="Self Portrait">This is me!</img>
         <nav>
-            <ul>
-                <li><a href="">About Me</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">Contact Me</a></li>
-                <li><a href="">Shop</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
+            <button class="button" href="#About-me">About me</button>
+            <button class="button" href="#projects">Projects</button>
+            <button class="button" href="#contact-me">Contact Me</button>
         </nav>
 
     </header>
 
 
     <main>
-        <section class="aboutme">
+        <section id="About-me">
             <h2>Biography</h2>
             <ul>
                 <li>Graduated highschool 2017</li>
@@ -44,29 +41,28 @@
             </ul>
 
         </section>
-        <section class="projects">
+        <section id="projects">
             <h2>Projects</h2>
+            <img src="" alt="" title="">
 
 
             <footer>will be continuously updated</footer>
 
         </section>
-        <section class="contact-form">
+        <section id="contact-me">
             <h2>Contact me</h2>
-            <form action="action_page.php">
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <ul>
+                    <li><a href="mailto:isaac.thorell@outlook.com?subject = Contact me">Email Me!</a></li>
+                    <li><a href="https://www.linkedin.com/in/isaac-t-9b6599b7">LinkedIn</a></li>
+                    <li><a href="">Instagram</a></li>
+                </ul>
 
-                <label for="lname">Last name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your Last name..">
-
-                <label id="subject" for="Subject">Comments</label>
-                <textarea id="subject" name="subject" placeholder=""></textarea>
-
-                <input type="submit" value="Submit">
-            </form>
 
         </section>
+        <footer>
+
+
+        </footer>
 
 
 
