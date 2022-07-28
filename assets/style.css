@@ -1,25 +1,109 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
+    width: 100%;
+    max-width: 1400px;
+    display: block;
+    margin: auto;
+    min-height: 100vh;
+    background: #191919;
+    font-family: serif, 'Times New Roman', Times;
+}
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
+    justify-content: center;
+    align-items: right;
+    z-index: 9;
+    background: #1a1a1a;
+}
+
+.link-list{
+    list-style: none;
+    display: flex;
+}
+
+.link a{
+    color: #fff;
+    opacity: 0.5;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    margin: 0 20px;
+    line-height: 80px;
+    transition: .5s;
+    font-size: 20px;
+}
+
+.link a:hover{
+    opacity: 1;
+    color: lightblue;
+} */
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: block;
+    width: 100%;
+    margin:auto;
+    max-width: 100vw;
+    max-height: 100vh;
+    /* background: ; */
     font-family:'Times New Roman', Times, serif;
 }
 
-header {
-    flex-direction: row;
-    background-color: blue;
-    position: fixed;
-    width: 100%;
+.navbar {
 
+    width: 100%;
+    position: fixed 0 0;
+    /* top: 0;
+    left: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    z-index: 9;
+    background: beige;
+
+}
+.list1{
+list-style: none;
+display: flex;
+}
+
+.link{
+    color: crimson;
+    opacity: 1;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    margin: 0 20px;
+    line-height: 80px;
+    transition: .5s;
+    font-size: 20px;
 }
 
 h1 {
     display: flex;
     font-family: serif, times new roman, times;
     font-size: 36px;
-    text-align: center;
-    border: 3px solid black;
-    margin: 5px auto;
-    padding: 5px;
-    background-image: linear-gradient(1deg, purple, transparent);
+ 
 }
 
 img {
@@ -30,13 +114,9 @@ img {
     position: relative;
 }
 
-header nav {
-    display: inline;
-    float: right;
-    border: 3px solid indianred;
-}
 
-nav :hover{
+
+.navbar :hover{
     background-color: lightblue;
     ;
 }
@@ -55,31 +135,27 @@ main{
 }
 
 #About-me h2 {
-    
+    margin: 0 20px;
 }
 
 #About-me ul {
-    
+    margin: 0 20px;
 }
 
 #About-me h3 {
-    
+    margin: 0 20px;
 }
 
-#projects {
+#projects { margin: 0 20px;
     }
 
 #projects h2 {
-    
+    margin: 0 20px;
     
 }
 
-.button{
-    
-    flex-direction: column;
-    scroll-behavior: auto;
-    border: 5px solid purple;
-}
+
+*/
 /* TODO:THEN that application's image should be larger in size than the others (flexbox layout) */
 /* TODO:THEN I am taken to that deployed application (link/ a Href) */
 /* TODO:THEN I am presented with a responsive layout that adapts to my viewport (Responsive design),  */
