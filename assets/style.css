@@ -1,161 +1,126 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body{
     width: 100%;
-    max-width: 1400px;
-    display: block;
-    margin: auto;
-    min-height: 100vh;
-    background: #191919;
-    font-family: serif, 'Times New Roman', Times;
+    margin:auto;
+    
+     font-family:'Times New Roman', Times, serif; */
+}
+
+header{
+   display:flex;
+background-color: beige;
+justify-content: space-between;
+align-items: center;
+padding: 1%;
+margin-bottom: 2%;
+
+}
+h1{
+  font-size: 200%;
+
 }
 
 .navbar{
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: right;
-    z-index: 9;
-    background: #1a1a1a;
-}
+     display:flex;
+     justify-content: space-around;
+     font-size: 120%;
+     width: 19rem;
 
-.link-list{
-    list-style: none;
-    display: flex;
 }
-
-.link a{
-    color: #fff;
-    opacity: 0.5;
+.navbar a{
     text-decoration: none;
-    text-transform: capitalize;
-    padding: 10px 30px;
-    margin: 0 20px;
-    line-height: 80px;
-    transition: .5s;
-    font-size: 20px;
-}
-
-.link a:hover{
-    opacity: 1;
-    color: lightblue;
-} */
-
-
-
-
-
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
-
-body{
-    display: block;
-    width: 100%;
-    margin:auto;
-    max-width: 100vw;
-    max-height: 100vh;
-    /* background: ; */
-    font-family:'Times New Roman', Times, serif;
-}
-
-.navbar {
-
-    width: 100%;
-    position: fixed 0 0;
-    /* top: 0;
-    left: 0; */
-    display: flex;
-    justify-content: center;
-    align-items: right;
-    z-index: 9;
-    background: beige;
 
 }
-.list1{
-list-style: none;
-display: flex;
-}
 
-.link{
-    color: crimson;
-    opacity: 1;
-    text-decoration: none;
-    text-transform: capitalize;
-    padding: 10px 30px;
-    margin: 0 20px;
-    line-height: 80px;
-    transition: .5s;
-    font-size: 20px;
-}
-
-h1 {
-    display: flex;
-    font-family: serif, times new roman, times;
-    font-size: 36px;
- 
-}
-
-img {
+header img {
     border: 5px solid cadetblue;
     border-radius: 100%;
-    width: 250px;
-    height: 200px;
+    width: 250px ;
+    height: 200px ;
     position: relative;
+    
 }
 
+.link:active{
+    color: black;
+    background-color: lightblue;
+}
 
-
-.navbar :hover{
+.link :hover{
     background-color: lightblue;
     ;
-}
-
-main{
-    border: 20px;
-    margin: 20px;
-    padding-top: 35px;
-    justify-content: space-around;
-}
-    
+} 
 #About-me{
-    margin: 5px;
-    border: 5px;
-    padding-top: 20px;
+    font-size: 75%;
+    padding: 0.5%;
+    margin: auto;
 }
-
-#About-me h2 {
-    margin: 0 20px;
+#About-me h2, h3{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 125%;
 }
-
-#About-me ul {
-    margin: 0 20px;
+#projects{
+    width: 100%;
+    padding: 1%;
+    margin: 1%;
+    display: flex;
+    flex-wrap: wrap;
 }
-
-#About-me h3 {
-    margin: 0 20px;
+#top-project{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 1%;
 }
+#top-project img{
+    flex-grow: .5;
+    text-align: center;
+}
+.p-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1%;
 
-#projects { margin: 0 20px;
-    }
-
-#projects h2 {
-    margin: 0 20px;
+}
+footer{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    display: flex;
+}
+#contact-me{
+    justify-content: space-evenly;
     
 }
+#contact-me ul{
+    display: flex;
+    flex-direction: row;
+}
+.contact-link{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    header, main {
+      flex-direction: column;
+    }
+  
+    #About-me {
+      margin: 1%;
+    }
+  
+    aside {
+      width: 100%;
+      text-align: center;
+    }
+  }
 
 
-*/
+
+
+
 /* TODO:THEN that application's image should be larger in size than the others (flexbox layout) */
 /* TODO:THEN I am taken to that deployed application (link/ a Href) */
 /* TODO:THEN I am presented with a responsive layout that adapts to my viewport (Responsive design),  */
